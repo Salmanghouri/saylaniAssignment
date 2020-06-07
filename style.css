@@ -1,0 +1,95 @@
+.mt-4>button{
+    width: 100%;
+    margin: 3px;
+    padding: 8px;
+    background-color: #263238;
+    border:2px solid #4CAF50;
+    border-radius: 15px;
+}
+.mt-4>button:hover{
+    margin: 8px;
+    background-color: #4CAF50;
+    border:2px solid #263238;
+    border-radius: 20%;
+}
+.w-full{
+    margin-top:10px;
+    box-shadow: 2px 4px 6px gray;
+}
+
+.fa-user-circle-o{
+    margin-right: 15px;
+    margin-left: 90px;
+}
+.heading>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 3px 3px 2px #4CAF50;
+    color:#263238;
+}
+.fa-shopping-cart{
+    margin-right: -250px;
+}
+.contact{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Email{
+    font-size: 20px;
+    font-style: oblique;
+    margin-left: 123px;
+}
+.form-control{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.row,.tellus{
+    margin-left: 123px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Elaborate{
+    margin-left: 123px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.button{
+    width: 80%;
+    margin-left: 120px !important;
+    margin: 3px;
+    padding: 8px;
+    background-color: #263238;
+    border:2px solid #4CAF50;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+.button:hover{
+    background-color: #4CAF50;
+    border:10px solid #263236;
+    color: #263238;
+    font-style: italic;
+}
+.my-4{
+    
+    background-color: #263238;
+    border:10px solid #4CAF50;
+}
+

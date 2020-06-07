@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home Made Cakes</title>
+</head>
+
+<body>
+  <header class="text-gray-500 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img src="logo/logo1.png" width="50px" alt="">
+        <span class="text-xl"><em>Home made Cake</em></span>
+      </a>
+      <nav class="md:mr-auto md:ml-6 md:py-1 md:pl-40 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-white">Home</a>
+        <a href="products.html" class="mr-5 hover:text-white">Products</a>
+        <a href="abouts us.html" class="mr-5 hover:text-white">About us</a>
+        <a href="contactus.html" class="mr-5 hover:text-white">Contact us</a>
+      </nav>
+      <div class="md:mr-auto md:ml-6 md:py-1 md:pl-30 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center" id="navbarText">
+        <a title="Account Login"class="nav-link" href="#"><i class="fa fa-user-circle-o" style="font-size:24px"></i></a>
+        <a title="Cart" class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:24px"></i></a>  
+      </div>
+      
+    </div>
+  </header>
+  <style>
+    body {
+      background-image: url("4w.jpeg");
+      background-color: #cccccc;
+    }
+  </style>
+  <br><br><br>
+  <section class="text-gray-500 bg-gray-900 body-font relative">
+
+    <div class="container my-4">
+      
+      <h2 class="contact">Contact Us</h2>
+      <form>
+          <div class="form-group">
+              <label for="exampleFormControlInput1"class="Email">Email address</label><br>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <!-- <div class="form-group">
+              <label for="exampleFormControlSelect1">Select your Query</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Web</option>
+                  <option>Tech Stack</option>
+                  <option>Technology</option>
+                  <option>Others</option>
+              </select>
+          </div> -->
+          <div class="form-group row">
+              <div class="col-sm-2">Are you a Member?</div>
+              <div class="col-sm-10">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                          Yes
+                      </label>
+                  </div>
+              </div>
+          </div>
+          <div class="form-group row">
+              <div class="col-sm-2">Are you a Customer?</div>
+              <div class="col-sm-10">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck2">
+                      <label class="form-check-label" for="gridCheck2">
+                          Yes
+                      </label>
+                  </div>
+              </div>
+          </div>
+          <div class="form-group row">
+              <div class="col-sm-2">Are you a Retailer</div>
+              <div class="col-sm-10">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck3">
+                      <label class="form-check-label" for="gridCheck3">
+                          Yes
+                      </label>
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group ">
+            <div class="tellus">
+              <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+            </div>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="Elaborate">
+              <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
+            </div>
+              <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+          </div>
+          <button class="button">Submit</button>
+      </form>
+
+  </div>
+  </section>
+
+  <footer class="text-gray-500 bg-gray-900 body-font">
+    <div class="bg-gray-800">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-600 text-sm text-center sm:text-left" style="color: white;"> Copyright © 2020 <img src="logo/logo1.png" width="25px" alt="" style="display: inline;" >Home made cakes</p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <a class="text-gray-600">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-600">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-600">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-600">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+ 
+
+</body>
+
+</html>
+</body>
+
+</html>
